@@ -1,0 +1,84 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 19, 2024, 9:08:33 PM
+    Author     : HieuTC
+*/
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, button, a {
+    font-family: 'Epilogue', sans-serif !important;
+}
+details > summary {
+    list-style: none;
+}
+
+ion-icon {
+    transform: translateY(10%);
+}
+
+input:focus {
+    box-shadow: unset !important;
+    border-color: inherit !important;
+}
+
+textarea:focus {
+    box-shadow: unset !important;
+}
+
+
+.insider-small, .insider-large {
+    background-color: white;
+    border-radius: 0.25rem;
+    padding: 1rem;
+
+}
+
+.insider-small {
+    width: 40%;
+    height: fit-content;
+
+}
+
+.insider-large {
+    width: 70%;
+}
+
+.insider-body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.insider-large .insider-body {
+    height: 16rem;
+    
+}
+
+.insider-small .insider-body {
+    height: 7rem;
+}
+.insider-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.insider-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.insider-center {
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    min-height: 100vh !important;
+}

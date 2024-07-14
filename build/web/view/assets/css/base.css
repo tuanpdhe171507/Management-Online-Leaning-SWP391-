@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    border-radius: unset !important;
+}
+
+/* */
+body {
+    font-family: "Kanit" !important;
+    font-size: 0.94rem;
+}
+
+.container {
+    max-width: 85vw;
+    min-height: 90vh;
+}
+
+.form-control {
+    border-color: black;
+}
+
+.form-select {
+    border-color: black;
+}
+
+.form-control:focus {
+    border-color: black;
+    box-shadow: unset;
+}
+
+.form-selct:focus {
+    box-shadow: unset !important;
+}
+
+.form-check-input:focus {
+    box-shadow: unset !important;
+}
+
+.btn {
+    border: unset;
+}
+
+.btn:focus {
+    border: unset;
+}
+
+a {
+    text-decoration: unset;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.btn {
+    text-decoration: unset;
+}
+
+ion-icon {
+    transform: translateY(22%);
+}
+
+.card {
+    border: unset;
+}
+
+.card-body {
+    padding-left: unset;
+    padding-right: unset;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card:hover .card-img-top {
+    opacity: 70%;
+}
+
+.card .dropdown-menu:hover {
+    cursor: default;
+}
+
+.nav-link {
+    font-weight: unset;
+}
+
+.nav-link:hover {
+    text-decoration: unset;
+}
+
+details > summary {
+    list-style: none;
+}
